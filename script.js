@@ -45,6 +45,7 @@ function playRound(playerSelection, computerSelection) {
 }
 
 function playGame() {
+  //Play 5 rounds
   for (let i = 0; i < 5; i++) {
     let playerInput = prompt("Type in 'rock', 'paper' or 'scissors'");
     playRound(playerInput, getComputerChoice());
